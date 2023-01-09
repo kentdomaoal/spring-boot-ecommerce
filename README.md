@@ -20,7 +20,7 @@ Includes tests using TestRestTemplate and Cucumber.
 
 ### Clone the project
 ```
-git clone https://github.com/kentdomaoal/spring-boot-ecommerce.git
+git clone --recursive https://github.com/kentdomaoal/spring-boot-ecommerce.git
 ```
 ``` 
 cd spring-boot-ecommerce
@@ -43,17 +43,32 @@ Alternatively, Cucumber Report can be found on this directory on your project ro
 
 ---
 ### Running the Spring Boot application (Back-end REST APIs)
-Assuming you are in the project root directory
+Expecting you are in the Spring project root directory.
+
+Run below command.
 ```
 mvn spring-boot:run
 ```
 
 
 ### Running the Angular application (Front-end)
-Go to the directory of the angular application root
+Open a new terminal.
+
+From the Spring project root directory, go to the directory of the Angular application root.
 ```
-cd \src\main\js\ecommerce
+cd src\main\js\ecommerce
 ```
+Install dependencies
+```
+npm install
+```
+Wait until all dependencies are installed.
+
+Then, start the application.
 ```
 npm start
 ```
+
+Wait until application is fully up and running, you can now access the application on 
+http://localhost:4200/
+
