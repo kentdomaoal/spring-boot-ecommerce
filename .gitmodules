@@ -1,3 +1,3 @@
-[submodule "src/main/js/ecommerce2"]
-	path = src/main/js/ecommerce2
+[submodule "src/main/js/ecommerce"]
+	path = src/main/js/ecommerce
 	url = https://github.com/kentdomaoal/angular-ecommerce
